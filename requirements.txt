@@ -1,2 +1,3 @@
-git+git://github.com/CEA-COSMIC/pysap@master#egg=python-pysap
-git+git://github.com/cea-cosmic/pysap-mri@master#egg=pysap-mri
+pyqt5==5.13.0
+git+git://github.com/chaithyagr/pysap@noplugin#egg=python-pysap
+git+git://github.com/chaithyagr/pysap-mri@add_init#egg=pysap-mri

@@ -1,0 +1,2 @@
+git+git://github.com/CEA-COSMIC/pysap@master#egg=python-pysap
+git+git://github.com/cea-cosmic/pysap-mri@master#egg=pysap-mri

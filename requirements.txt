@@ -1,3 +1,3 @@
 pyqt5==5.13.0
-git+git://github.com/chaithyagr/pysap@2d_pmri_data#egg=python-pysap
+git+git://github.com/cea-cosmic/pysap@master#egg=python-pysap
 git+git://github.com/chaithyagr/pysap-mri@selfcalibrating#egg=pysap-mri

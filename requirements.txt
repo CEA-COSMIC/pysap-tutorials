@@ -1,2 +1,2 @@
-git+git://github.com/CEA-COSMIC/pysap@master#egg=python-pysap
-git+git://github.com/cea-cosmic/pysap-mri@master#egg=pysap-mri
+git+git://github.com/chaithyagr/pysap@2d_pmri_data#egg=python-pysap
+git+git://github.com/chaithyagr/pysap-mri@selfcalibrating#egg=pysap-mri

@@ -1,0 +1,2 @@
+#!/bin/bash
+export PATH=$PATH:$PWD/Libraries/pysap/build/temp.linux-x86_64-3.7/extern/bin;

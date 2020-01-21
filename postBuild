@@ -1,10 +1,10 @@
+#!/bin/bash
 mkdir Libraries
 cd Libraries
 git clone https://github.com/cea-cosmic/pysap
 cd pysap
 python setup.py develop
 ls build/
-export PATH=$PATH:$PWD/build/temp.linux-x86_64-3.7/extern/bin;
 cd ../
 git clone https://github.com/cea-cosmic/pysap-mri
 cd pysap-mri

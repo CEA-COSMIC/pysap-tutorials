@@ -1,0 +1,11 @@
+#!/bin/bash
+mkdir Libraries
+cd Libraries
+git clone https://github.com/cea-cosmic/pysap
+cd pysap
+python setup.py develop
+ls build/
+cd ../
+git clone https://github.com/cea-cosmic/pysap-mri
+cd pysap-mri
+python setup.py develop

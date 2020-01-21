@@ -1,3 +1,5 @@
+mkdir Libraries
+cd Libraries
 git clone https://github.com/cea-cosmic/pysap
 cd pysap
 python setup.py develop

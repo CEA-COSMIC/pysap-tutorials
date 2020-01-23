@@ -10,3 +10,30 @@ Navigate into the respective directories and run the examples and see the result
 You dont really need any dependencies, things work on the fly directly, all you need is chrome or firefox to work with jupyter notebooks.
 
 If there are any issues faced in any example, please feel free to open an issue and we will address it as soon as possible!
+
+
+## Google Colaboratory: In development
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CEA-COSMIC/pysap-tutorials/)
+
+We can now run the codes on a google colab. However, this is in development and you may need to run some start up script at begining to ensure the codes run fine.
+
+### Running on Google Colab
+
+1) Click on [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CEA-COSMIC/pysap-tutorials/).
+
+2) Once inside, choose the appropriate example which you want to run.
+
+3) At the begining, click on `+ Code` and please paste below code and run:
+```
+!apt install libnfft3-dev
+!pip install --upgrade git+https://github.com/cea-cosmic/pysap
+!pip install --upgrade git+https://github.com/cea-cosmic/pysap-mri
+!pip install --upgrade git+https://github.com/cea-cosmic/modopt
+```
+
+This will install all the latest libraries and you can now run all your codes fine. Please ensure you run these codes on every launch as Google Colab in current state does not support persistent kernels or Dockers.
+
+*Note: The codes that use Undecimated Wavelet Transform will not work and we are in process of fixing this.*
+
+Going forward, we plan to enable even GPU versions of codes with which you can run faster on [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CEA-COSMIC/pysap-tutorials/) as compared to [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cea-cosmic/pysap-tutorials/master)

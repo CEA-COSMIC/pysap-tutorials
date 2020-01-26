@@ -1,0 +1,15 @@
+name: pysap-tutorials
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip>=19.1.1
+  - astropy>=3.2.1
+  - jupyter>=1.0.0
+  - matplotlib>=3.1.1
+  - numpy>=1.16.4
+  - pyqtgraph>=0.10.0
+  - pip:
+    - git+https://github.com/CEA-COSMIC/modopt
+    - git+https://github.com/CEA-COSMIC/pysap
+    - git+https://github.com/chaithyagr/pysap-mri

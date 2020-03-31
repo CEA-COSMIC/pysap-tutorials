@@ -12,4 +12,4 @@ dependencies:
   - pip:
     - git+https://github.com/CEA-COSMIC/modopt
     - git+https://github.com/CEA-COSMIC/pysap
-    - git+https://github.com/chaithyagr/pysap-mri
+    - git+https://github.com/CEA-COSMIC/pysap-mri

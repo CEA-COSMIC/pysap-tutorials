@@ -3,8 +3,7 @@ mkdir Libraries
 cd Libraries
 git clone https://github.com/cea-cosmic/modopt
 git clone https://github.com/cea-cosmic/pysap
-# Have local git room as mainline code is being reviwed
-git clone https://github.com/chaithyagr/pysap-mri
+git clone https://github.com/cea-cosmic/pysap-mri
 cd modopt
 python setup.py develop
 cd ../

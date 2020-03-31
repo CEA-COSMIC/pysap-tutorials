@@ -1,12 +1,9 @@
 #!/bin/bash
 mkdir Libraries
 cd Libraries
-git clone https://github.com/cea-cosmic/modopt
+pip install modopt
 git clone https://github.com/cea-cosmic/pysap
 git clone https://github.com/cea-cosmic/pysap-mri
-cd modopt
-python setup.py develop
-cd ../
 cd pysap
 python setup.py develop
 ls build/

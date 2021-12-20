@@ -9,6 +9,7 @@ dependencies:
   - matplotlib>=3.1.1
   - numpy>=1.16.4
   - pyqtgraph>=0.10.0
+  - setuptools>=60.0.0
   - pip:
     - git+https://github.com/CEA-COSMIC/modopt
     - git+https://github.com/CEA-COSMIC/pysap

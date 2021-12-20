@@ -60,7 +60,7 @@ own local environment:
    3. Create a Virtual Environment:
 
         ```
-        conda env create -f enviroment_local.yml
+        conda env create -f environment_local.yml
         conda activate pysap-tutorials
         ```
    

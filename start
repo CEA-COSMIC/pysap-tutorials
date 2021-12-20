@@ -2,3 +2,5 @@
 pip install python-pysap pysap-mri>=0.3.0 modopt>=1.5.2 pynfft2
 
 exec "$@"
+
+exec "$@"

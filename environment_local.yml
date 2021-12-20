@@ -10,7 +10,7 @@ dependencies:
   - numpy>=1.16.4
   - pyqtgraph>=0.10.0
   - setuptools>=60.0.0
-  - pip:
-    - git+https://github.com/CEA-COSMIC/modopt
-    - git+https://github.com/CEA-COSMIC/pysap
-    - git+https://github.com/CEA-COSMIC/pysap-mri
+  - python-pysap
+  - modopt>=1.5.2
+  - pysap-mri>=0.3.0
+  

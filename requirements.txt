@@ -1,1 +1,4 @@
 pyqt5==5.13.0
+python-pysap
+modopt>=1.5.2
+pysap-mri>=0.3.0
